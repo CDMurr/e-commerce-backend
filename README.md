@@ -28,6 +28,10 @@ The user should clone the repository from GitHub. This application requires Node
 # Usage 
 Backend for e-commerce-website, to track multle data models at once. 
 
+# DEMO 
 [DEMO GIF](Untitled_%20May%208%2C%202022%203_39%20AM.gif)
 
 View walk through video via [Screencastify](https://drive.google.com/file/d/1rEtDLCnYdnbArvXuXiggScXhc8ZYvRdH/view)
+
+# github link 
+https://github.com/CDMurr/e-commerce-backend
