@@ -43,6 +43,11 @@ router.get('/:id', (req, res) => {
         }
       ]
   })
+  .then(dbTagData => res.json(dbTagData))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err)
+  })
 });
 
 router.post('/', (req, res) => {
@@ -68,6 +73,7 @@ router.put('/:id', (req, res) => {
     if (!updatedTagData) {
       res.status(404).json({ message: 'tag not found, confirm correct id'})
     }
+    res.json(updatedTagData)
   })
   .catch(err => {
     console.log(err);

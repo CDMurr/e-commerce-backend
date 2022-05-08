@@ -74,7 +74,6 @@ router.put('/:id', (req, res) => {
       res.status(404).json({ message: 'Category not found, confirm correct id'})
     }
     res.json(updatedCategoryData)
-
   })
   .catch(err => {
     console.log(err);
